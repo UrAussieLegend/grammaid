@@ -1,0 +1,1 @@
+export const themeScript = `(function(){try{var t=localStorage.getItem('grammaid-theme')||'system';var d=t==='dark'||(t==='system'&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.classList.toggle('dark',d);}catch(e){}})();`;
